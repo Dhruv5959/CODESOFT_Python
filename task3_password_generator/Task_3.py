@@ -22,7 +22,7 @@ def clip():
     w.clipboard_clear()
     w.clipboard_append(pw_entry.get())
 
-lf=LabelFrame(w, text="Enter Your Desi")
+lf=LabelFrame(w, text="Enter Required Characters")
 lf.pack(pady=20)
 
 e=Entry(lf, font=("Times", 24), width=5)
